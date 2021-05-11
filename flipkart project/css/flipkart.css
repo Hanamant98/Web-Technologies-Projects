@@ -1,0 +1,100 @@
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+   
+}
+#headerBlock {
+    background-color: #2874f8;
+    height: 80px;
+    width: 100%;
+}
+#headerBlock article{
+    display: flex;
+    width: 80%;
+    height: 56px;
+    align-items: center;
+    margin: 0 auto;
+}
+.logoBlock{
+    display: flex;
+    width: 30%;
+    justify-content: flex-start;
+    
+}
+.logoBlock img{
+    width: 100px;
+}
+.cart{
+    width: 900px;
+}
+.cart ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+.searchBlock{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.searchBlock input{
+    width: 90%;
+    height: 40px;
+    border: none;
+    
+}
+.cart{
+    display: flex;
+    justify-content: flex-end;
+}
+.cart ul li a{
+    padding: 40px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #eee;
+}
+.searchBlock{
+    position: relative;
+}
+.searchBlock i{
+    position: absolute;
+    top: 15px;
+    right:50px ;
+}
+#navBar {
+    background-color: #eee;
+    width: 100%;
+    height: 50px;
+}
+#navBar article {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.topnavBar {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+} 
+.topnavBar ul {
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    padding: 0 60px;
+} 
+.topnavBar ul li a {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color:#111;
+
+}  

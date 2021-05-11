@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+#topBar {
+    background-color: hsl(342, 100%, 45%);
+    height: 70px;
+    width: 100%;
+}
+#topBar article {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: #eee;
+}
+.topleftBlock {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.toprightBlock {
+   
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.toprightBlock ul {
+   list-style: none;
+   display: flex;
+}
+.toprightBlock ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #eee;
+    
+ }
+ .toprightBlock span {
+     position: relative;
+
+ }
+ .toprightBlock span i {
+     position: absolute;
+     left: -18px;
+ }
+ #navBar {
+     background-color: crimson;
+     height: 80px;
+     width: 100%;
+     box-shadow: 0 0 4px rgba(0,0,0,0.2);
+
+ }
+ #navBar article {
+     width: 95%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80px;
+
+}
+.logBlock {
+    width: 57%;
+    display: flex;
+    justify-content: flex-start;
+}
+.searchBlock {
+    background-color: #111;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.authBlock {
+    color: #eee;
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+#sliderBlock article .searchBlock form input {
+    width: 70%;
+    height: 70px;
+    border: none;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.authBlock ul li {
+    list-style: none;
+    display: flex;
+
+}

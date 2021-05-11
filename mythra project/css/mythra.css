@@ -1,0 +1,110 @@
+
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+#headerBlock {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+#headerBlock article {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.logoBlock {
+    width: 10%;
+}
+.logoBlock img{
+    width: 55px;
+}
+.leftMenuBlock {
+    width: 40%;
+}
+.searchBlock {
+    width: 30%;
+}
+.rightManuBlock {
+    widows: 20%;
+}
+.leftMenuBlock > ul {
+    list-style: none;
+    display: flex;
+}
+.leftMenuBlock ul li a {
+    color: #111;
+    text-decoration: none;
+    padding: 30px 15px;
+    font-weight: bold;
+}
+.dropdown {
+    background: #fff;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    width: 1080px;
+    display: none;
+    height: 500px;
+}
+.dropdown div {
+    flex: 1;
+    padding: 20px 30px;
+}
+.dropdown div:nth-child(odd){
+    background-color: #fff;
+}
+.dropdown div:nth-child(even){
+    background-color: #f5f5f6;
+}
+.dropdown div ul {
+   list-style: none;
+}
+.dropdown div ul li a {
+    font-size: 14px;
+    padding: 6px 10px;
+    color: #555;
+    display: block;
+    font-weight: normal;
+}
+.dropdown div ul li:first-child a {
+    color: hotpink;
+}
+.dropdown div ul li:nth-child(10){
+    padding: 10px 9px 11px ;
+    border-bottom: 1px solid #ccc;
+    margin: 4px 0 18px;
+}
+.leftMenuBlock ul li:hover > .dropdown {
+    display: flex;
+}
+.searchBlock input{
+    width: 90%;
+    height: 40px;
+    border: none;   
+}
+.searchBlock i{
+    position: absolute;
+    top: 30px;
+    right: 465px;
+}
+.rightManuBlock > ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+} 
+.rightManuBlock ul li a  {
+    color: #111;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    
+}
